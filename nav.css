@@ -1,0 +1,55 @@
+@import url(./main.css);
+@import url(./skills.css);
+@import url(./projects.css);
+@import url(./foot.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* background-color: rgb(170, 107, 228); */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nav{
+    /* border: 2px solid red ; */
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+    color: #fff;
+    cursor: pointer;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 95%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+#sub-nav ol{
+    /* border: 2px solid blue; */
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+    font-size: 20px;
+}
+#sub-nav ol li:hover{
+    /* font-size: 16px; */
+    /* font-weight: 900; */
+    color: violet;
+    /* font-size: 25px; */
+    scale: 1.25;
+    text-decoration: underline;
+    transition:0.5s;
+}
+#sub-nav h1{
+    /* border: 2px solid red; */
+    display: inline;
+    position: relative;
+    top: 22px;
+    font-size: 40px;
+}

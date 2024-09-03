@@ -1,0 +1,38 @@
+#skill{
+    /* border: 2px solid red; */
+    height: 40vh;
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+}
+#part1{
+    /* border: 2px solid red; */
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+}
+#part2{
+    /* border: 2px solid red; */
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 390px;
+    
+}
+#part3{
+    /* border: 2px solid red; */
+    width: 400px;
+    position: absolute;
+    top: 140px;
+    left: 750px;
+    
+}
+#part4{
+    /* border: 2px solid red; */
+    width: 400px;
+    position: absolute;
+    top: 160px;
+    left: 1200px;
+    
+}
